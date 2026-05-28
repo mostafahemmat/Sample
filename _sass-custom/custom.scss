@@ -1,0 +1,28 @@
+// راست به چپ کردن کل سایت
+html {
+    direction: rtl;
+}
+
+// تنظیم منوی کناری (Sidebar) برای نمایش در سمت راست
+.side-bar {
+    right: 0;
+    left: auto;
+    border-right: 0;
+    border-left: 1px solid #eee;
+}
+
+// تنظیم فاصله محتوای اصلی از منوی سمت راست
+.main-content {
+    margin-right: 264px;
+    margin-left: auto;
+}
+
+// تنظیمات جستجو برای نمایش آیکون جستجو در سمت راست
+.search-input {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+}
+.search-icon {
+    right: 0.8rem;
+    left: auto;
+}
