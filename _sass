@@ -1,0 +1,5 @@
+// تنظیم فونت کل سایت
+$body-font-family: "IRANSans", "Vazir", "Tahoma", sans-serif;
+
+// تنظیم فونت برای متن اصلی
+$mono-font-family: "IRANSans", "Vazir", monospace;
